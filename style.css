@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,900&display=swap');
+
+
+.container_header {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    background: #222222;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.background {
+    background: #F1E4E6;
+    height: 764px;
+    display: flex;
+    
+  }
+
+.offers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 260px 180px;
+    grid-gap: 30px;
+    align-content: center;
+    padding-top: 64px;
+    justify-content: center;
+    grid-auto-rows: minmax(0, auto);
+  
+}
+.offerAccesories {
+    grid-column: 1/4;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.offerWoman {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.offerMan {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.offerChild {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.offerTitle {
+    position: absolute;
+    
+}
+.offerTitleTop {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.offerTitleBottom {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #F16D7F;
+
+}
+
+.block_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 140px;
+}
+
+.logo {
+    padding-right: 41px;
+}
+.block_2 {
+    display: flex;
+    align-items: center;
+    padding-right: 140px;
+}
+.person {
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.wrapper_2 {
+    display: inline-block;
+    position: relative;
+}
+.wrapper {
+    display: inline-block;
+}
+.ellipse {
+    position: absolute;
+    top: -4px;
+    right: -8px;
+}
+.text {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: end;
+color: #FFFFFF;
+position: absolute;
+top: -13px;
+right: 0px;
+}
+.brandRight {
+    font-family: 'Lato';
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+}
+.brandRight div:first-child {
+font-weight: 900;
+font-style: bold;
+font-size: 48px;
+line-height: 58px;
+color: #222222;
+padding-right: 16px;
+} 
+.brandRight div:last-child {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+    padding-right: 16px;
+}
+.brandRight span {
+    color: #F16D7F;
+}
+
+.brand {
+   padding-top: 290px;
+   padding-left: 63px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ .container {
+    max-width: 1140px; 
+    margin: 0 auto; 
+}
+.block_text {
+    text-align: center;
+    padding-top: 96px;
+    
+}
+.paragraf {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+color: #222222;
+}
+.paragraf_text {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #9F9F9F;
+padding-bottom: 34px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 608px 608px;
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.cardBlock {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+}
+.cardTitle {
+padding-bottom: 12px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+color: #000000;
+
+}
+.cardText {
+padding-bottom: 18px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+color: #5D5D5D;
+
+}
+.cardPrice {
+padding-bottom: 20px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #F16D7F;
+}
+.card_1 {
+    background: #F8F8F8;
+}
+
+.button {
+border: 1px solid #FF6A6A;
+padding-top: 14px;
+padding-bottom: 14px;
+padding-left: 38px;
+padding-right: 38px;
+margin-top: 48px;
+}
+.cardButton {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #F26376;
+text-decoration: none;
+
+}
+
+@media (max-width: 1024px) {
+    .container_header {
+        max-width: 1024px;
+    }
+    .block_1 {
+        padding-left: 32px;
+    
+    }
+    .block_2 {
+        padding-right: 32px;
+    }
+    .background {
+        height: 368px;
+    }
+    .foto {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .brandRight div:first-child {
+    font-size: 44px;
+    line-height: 52px;
+    }
+    .brandRight div:last-child {
+    font-size: 24px;
+    line-height: 28px;
+    }
+    .brand {
+    padding-left: 39px;
+    padding-top: 138px;
+    }
+    .offers {
+        padding-top: 20px;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+    }
+    .offerImg {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        
+    }
+    .container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .cards {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 16px;
+    }
+    .cardImg {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .block_text {
+        padding-top: 154px;
+    }
+    .paragraf_text {
+        padding-bottom: 57px;
+    }
+} 
+
+
+@media (max-width: 667px) {
+    .container_header {
+        max-width: 667px;
+    }
+    .person {
+        display: none;
+    }
+    .wrapper_2 {
+        display: none;
+    }
+    .block_1 {
+        padding-left: 16px;
+    }
+    .block_2 {
+        padding-right: 16px;
+    }
+    .foto {
+        display: none;
+    }
+    .brandRight {
+        padding-left: 15px;
+    }
+    .brandRight div:first-child {
+        font-size: 38px;
+        line-height: 45px;
+    }
+    .brandRight div:last-child {
+        font-size: 20px;
+        line-height: 24px;
+      }
+      .brand {
+        padding-left: 50px;
+        padding-top: 150px;
+      }
+      .offers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 64px;
+        grid-gap: 32px;
+      }
+      .cards {
+          grid-template-columns: 1fr;
+      }
+      .block_text {
+          padding-top: 44px;
+      }
+      .paragraf_text {
+          padding-bottom: 51px;
+          font-size: 13px;
+      }
+      .button {
+          margin-top: 41px;
+      }
+    }
+
+   
