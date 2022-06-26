@@ -1,0 +1,555 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  font-family: Lato, sans-serif;
+}
+
+.container_header {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  background: #222222;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.background {
+  background: #f8f3f4;
+  height: 148px;
+}
+.newArrivals .container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 59px;
+}
+h1 {
+  margin: 0%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+}
+.newArrivals nav a {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+  text-decoration: none;
+}
+.newArrivals nav a:last-of-type {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f16d7f;
+}
+.slider {
+  border: 1px solid #eaeaea;
+  background: #f7f7f7;
+  position: relative;
+}
+.slider .sliderLeftArrow {
+  left: 0;
+  background-image: url(img/arrow_left.svg);
+}
+.sliderLeftArrow {
+  width: 47px;
+  height: 47px;
+  background-color: rgba(42, 42, 42, 0.15);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: calc(50% - 47px / 2);
+  cursor: pointer;
+}
+.slider .sliderRightArrow {
+  right: 0;
+  background-image: url(img/arrow_right.svg);
+}
+.sliderRightArrow {
+  width: 47px;
+  height: 47px;
+  background-color: rgba(42, 42, 42, 0.15);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: calc(50% - 47px / 2);
+  cursor: pointer;
+}
+.slider .sliderImg {
+  max-width: 100%;
+  object-fit: cover;
+  margin-top: 85px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.block_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 140px;
+}
+
+.logo {
+  padding-right: 41px;
+}
+.block_2 {
+  display: flex;
+  align-items: center;
+  padding-right: 140px;
+}
+.person {
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.wrapper_2 {
+  display: inline-block;
+  position: relative;
+}
+.wrapper {
+  display: inline-block;
+}
+.ellipse {
+  position: absolute;
+  top: -4px;
+  right: -8px;
+}
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: end;
+  color: #ffffff;
+  position: absolute;
+  top: -13px;
+  right: 0px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.collectionInside {
+  padding: 64px 24px;
+  border: 1px solid rgb(234, 234, 234);
+  margin-bottom: 129px;
+  background: white none repeat scroll 0% 0%;
+}
+.collectionTitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f16d7f;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+.collectionLinePink {
+  height: 3px;
+  width: 63px;
+  background: rgb(241, 109, 127) none repeat scroll 0% 0%;
+  margin: 0px auto 12px;
+}
+.collectionLineGrey {
+  height: 1px;
+  width: 175px;
+  margin: 0px auto 49px;
+  background: rgb(234, 234, 234) none repeat scroll 0% 0%;
+}
+.collectionDesc {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4d4d4d;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.collectionText {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #5e5e5e;
+  margin-bottom: 32px;
+  max-width: 326px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.collectionPrice {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ef5b70;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.collectionSize {
+  font-size: 14px;
+  line-height: 17px;
+  color: rgb(111, 110, 110);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+}
+.collectionSize Img {
+  margin-left: 10px;
+}
+button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+  border: 1px solid rgb(241, 109, 127);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(241, 109, 127);
+  display: flex;
+  align-items: center;
+  padding: 15px 24px;
+  margin: 0px auto;
+}
+button img {
+  margin-right: 23px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  align-items: center;
+}
+
+.cardBlock {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.cardTitle {
+  padding-bottom: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+}
+.cardText {
+  padding-bottom: 18px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5d5d5d;
+}
+.cardPrice {
+  padding-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f16d7f;
+}
+.card_1 {
+  background: #f8f8f8;
+}
+
+.card_1_1 {
+  background: #f8f8f8;
+}
+
+.iconTitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.96px;
+  line-height: 24px;
+  color: #fbfbfb;
+  padding-bottom: 16px;
+}
+.iconText {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13.972px;
+  line-height: 17px;
+  text-align: center;
+  color: #fbfbfb;
+}
+.block_icons {
+  text-align: center;
+}
+
+.icon {
+  padding-bottom: 28px;
+}
+
+.blockIcons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.copyRightText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fbfbfb;
+}
+.icon_2 {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.icon_4 {
+  padding-left: 7px;
+}
+.subscribe {
+  background: url(img/pic.jpg) no-repeat;
+  background-size: cover;
+  padding-bottom: 156px;
+  margin-top: 129px;
+}
+.subscribe .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 87px;
+}
+.subscribeLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribeUserText {
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(34, 34, 36);
+  max-width: 330px;
+}
+
+.subscribeRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribeTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(34, 34, 36);
+  line-height: 40px;
+}
+.subscribeText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #222224;
+  margin-bottom: 32px;
+}
+.subscribeForm {
+  height: 47px;
+  display: flex;
+}
+.subscribeForm input {
+  font-style: normal;
+  height: inherit;
+  background: rgb(225, 225, 225) none repeat scroll 0% 0%;
+  border: medium none;
+  padding: 6px 21px;
+  box-sizing: border-box;
+  border-top-left-radius: 28px;
+  border-bottom-left-radius: 28px;
+  float: left;
+  width: 185px;
+}
+.subscribeForm button {
+  font-style: normal;
+  height: inherit;
+  border: medium none;
+  color: white;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 17px;
+  background: rgb(241, 109, 127) none repeat scroll 0% 0%;
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+  padding: 0px 17px;
+}
+.fa-facebook-f::before {
+  content: url(img/icon_f.svg);
+}
+.fa-instagram-i::before {
+  content: url(img/icon_insta.svg);
+}
+.fa-pinterest-p::before {
+  content: url(img/icon_pinterest.svg);
+}
+.fa-twitter-t::before {
+  content: url(img/icon_twiter.svg);
+}
+.footerContacts {
+  height: 79px;
+  background: black;
+}
+.footerContacts .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-left: 235px;
+  padding-right: 237px;
+}
+.footerRights {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fbfbfb;
+}
+
+@media (max-width: 1024px) {
+  .container_header {
+    max-width: 1024px;
+  }
+  .block_1 {
+    padding-left: 32px;
+  }
+  .block_2 {
+    padding-right: 32px;
+  }
+
+  .container {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 16px;
+  }
+  .cardImg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .card_1_1 {
+    display: none;
+  }
+
+  .footerBlock_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 610px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .block_icons {
+    padding-right: 0px;
+    max-width: 340px;
+  }
+  .subscribe .container {
+    padding-top: 53px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribeRight {
+    padding-top: 48px;
+  }
+  .subscribe {
+    padding-bottom: 140px;
+  }
+  .footerContacts .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 667px) {
+  .container_header {
+    max-width: 667px;
+  }
+  .newArrivals .container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+  }
+  h1 {
+    padding-bottom: 32px;
+  }
+  .person {
+    display: none;
+  }
+  .wrapper_2 {
+    display: none;
+  }
+  .block_1 {
+    padding-left: 16px;
+  }
+  .block_2 {
+    padding-right: 16px;
+  }
+  .foto {
+    display: none;
+  }
+  .slider .sliderImg {
+    margin-top: 30px;
+  }
+  .collectionSize {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .button {
+    margin-top: 41px;
+  }
+  .footerBlock_1 {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 44px;
+  }
+  .footerContacts .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .footerLeft {
+    padding-bottom: 40px;
+  }
+  .footerContacts {
+    height: 143px;
+  }
+  .collectionInside {
+    margin-bottom: 64px;
+  }
+}
